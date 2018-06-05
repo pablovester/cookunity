@@ -1,0 +1,124 @@
+html {
+	background: #E1E8DF;
+}
+
+.flex {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+.card-container {
+	width: 15rem;
+	height: 40rem;
+	margin: auto;
+	background: #FFFFFF;
+	border: 0.1px solid #E0E3DF  ;
+	box-shadow: 2px 1px 5px grey;
+	margin: 0.5rem;
+}
+
+.img{
+	position: relative;
+}
+
+.food {
+	bottom: 5%;
+	right: 35%;
+}
+
+.chef {
+	bottom: 35%;
+	text-align: center;
+}
+
+.text {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.text span {
+	font-weight: 900;
+}
+
+.green {
+	color: #00A300;
+}
+
+.type-product {
+	line-height: 16px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: grey;
+}
+
+.title {
+	line-height: 20px;
+}
+	
+.description {
+	margin: 0px 5px;
+	font-size: 14px;
+	text-align: center;
+}
+
+p.author {
+	position: relative;
+	bottom: 10%;
+}
+
+.tag-container {
+	position: relative;
+	bottom: 39%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.tag {
+	border: 1px solid #009C4B;
+	border-radius: 12px;
+	width: 100%;
+	font-size: 12px;
+	padding: 0.1rem;
+	margin: 0.2rem;
+}
+
+.bottom-container {
+	display: flex;
+	justify-content: space-around;
+	font-size: 12px;
+	position: relative;
+	bottom: 37%;
+	border-top: 1px solid gray;
+}
+
+.bttn-container {
+	position: relative;
+	bottom: 40%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem 0.8rem 0rem 0.8rem;
+}
+
+.bttn {
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	height: 100%;
+	box-shadow: 2px 1px 5px grey;
+}
+
+.control {
+	border-radius: 50%;
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.quantity {
+	border-radius: 20%;
+}

@@ -11,10 +11,9 @@ html {
 .card-container {
 	width: 15rem;
 	height: 40rem;
-	margin: auto;
 	background: #FFFFFF;
-	border: 0.1px solid #E0E3DF  ;
-	box-shadow: 2px 1px 5px grey;
+	border: 0.09rem solid #E0E3DF;
+	box-shadow: 0.2rem 0.06rem 0.3rem grey;
 	margin: 0.5rem;
 }
 
@@ -46,19 +45,19 @@ html {
 }
 
 .type-product {
-	line-height: 16px;
-	font-size: 14px;
+	line-height: 1rem;
+	font-size: 0.8rem;
 	text-transform: uppercase;
 	color: grey;
 }
 
 .title {
-	line-height: 20px;
+	line-height: 1.25rem;
 }
 	
 .description {
-	margin: 0px 5px;
-	font-size: 14px;
+	margin: 0px 0.3rem;
+	font-size: 0.8rem;
 	text-align: center;
 }
 
@@ -77,10 +76,10 @@ p.author {
 }
 
 .tag {
-	border: 1px solid #009C4B;
-	border-radius: 12px;
+	border: 0.06rem solid #009C4B;
+	border-radius: 0.75rem;
 	width: 100%;
-	font-size: 12px;
+	font-size: 0.75rem;
 	padding: 0.1rem;
 	margin: 0.2rem;
 }
@@ -88,10 +87,10 @@ p.author {
 .bottom-container {
 	display: flex;
 	justify-content: space-around;
-	font-size: 12px;
+	font-size: 0.75rem;
 	position: relative;
 	bottom: 37%;
-	border-top: 1px solid gray;
+	border-top: 0.06rem solid gray;
 }
 
 .bttn-container {
@@ -109,8 +108,8 @@ p.author {
 	justify-content: center;
 	align-items: center;
 	width: 30%;
-	height: 100%;
-	box-shadow: 2px 1px 5px grey;
+    height: 100%;
+	box-shadow: 0.2rem 0.06rem 0.3rem grey;
 }
 
 .control {
